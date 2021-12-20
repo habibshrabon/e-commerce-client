@@ -1,0 +1,19 @@
+.btn-style {
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  overflow: hidden;
+  border-radius: 4px;
+  background-image: linear-gradient(40deg, #3473d8, #00063d);
+  text-transform: capitalize;
+}
+
+.btn-style:hover {
+  color: #740995;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
