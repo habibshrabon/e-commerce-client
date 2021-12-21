@@ -39,7 +39,7 @@ const ProductDetails = () => {
       <Header />
       <section className="contact-from">
         <div className="container my-5 py-5">
-          <h2 className="mb-5">Confirm you order </h2>
+          <h2 className="mb-5 text-center">Confirm you order </h2>
           {!isLoading && (
             <div className="row">
               <div className="col-md-5">
@@ -57,7 +57,7 @@ const ProductDetails = () => {
                 </div>
               </div>
               <div className="col-md-7 order">
-                <h2>place your order</h2>
+                <h2 className="text-center">place your order</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
                   <input
                     {...register("name", { required: true })}

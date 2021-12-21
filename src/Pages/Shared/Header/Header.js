@@ -44,24 +44,6 @@ const Header = () => {
               <Nav.Link className=" fw-bold text-black" as={Link} to="/contact">
                 Contact
               </Nav.Link>
-              {/* {user?.email && (
-                <Nav.Link className=" text-white" as={Link} to="/dashboard">
-                  Dashboard
-                </Nav.Link>
-              )}
-              {user?.email ? (
-                <Nav.Link className="text-white" onClick={logOut}>
-                  <FontAwesomeIcon
-                    className="text-danger"
-                    icon={faSignOutAlt}
-                  />
-                  Logout
-                </Nav.Link>
-              ) : (
-                <Nav.Link className="text-white" as={Link} to="/login">
-                  Login
-                </Nav.Link>
-              )} */}
               {user?.email ? (
                 <>
                   <Nav.Link
@@ -88,7 +70,7 @@ const Header = () => {
                   Login
                 </Nav.Link>
               )}
-              <Nav.Link className=" px-3 text-white">
+              <Nav.Link className=" px-3 text-black fw-bold">
                 {user?.displayName}
               </Nav.Link>
             </Nav>
