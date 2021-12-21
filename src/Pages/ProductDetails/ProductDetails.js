@@ -22,15 +22,17 @@ const ProductDetails = () => {
     const productDetails = product;
     data.item = productDetails;
     data.status = "pending";
-    axios.post("http://localhost:4000/orders", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Order Placed successfully");
-        reset();
-      }
-    });
+    axios
+      .post("https://aqueous-caverns-16953.herokuapp.com/orders", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Order Placed successfully");
+          reset();
+        }
+      });
   };
   useEffect(() => {
-    fetch(`http://localhost:4000/products/${productId}`)
+    fetch(`https://aqueous-caverns-16953.herokuapp.com/products/${productId}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
