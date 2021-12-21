@@ -6,7 +6,6 @@ import { Container } from "react-bootstrap";
 import useAuth from "../../../hooks/useAuth";
 import "./Contact.css";
 import Header from "../../Shared/Header/Header";
-import Footer from "../../Shared/Footer/Footer";
 
 const Contact = () => {
   const { user } = useAuth();
@@ -115,7 +114,6 @@ const Contact = () => {
           </div>
         </Container>
       </section>
-      <Footer />
     </div>
   );
 };

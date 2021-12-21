@@ -24,7 +24,7 @@ const Product = ({ product }) => {
               <h4>Price: $ {price}</h4>
               <Link to={`/productDetails/${_id}`}>
                 <button className="btn btn-style px-3">
-                  ADD TO CART{" "}
+                  Shop Now{" "}
                   <FontAwesomeIcon
                     className="text-danger"
                     icon={faChevronRight}

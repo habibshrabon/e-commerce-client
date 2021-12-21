@@ -45,9 +45,9 @@ function App() {
             <PrivateRoute path="/manageOrder">
               <ManageAllOrders />
             </PrivateRoute>
-            <Route path="/makeAdmin">
+            <PrivateRoute path="/makeAdmin">
               <MakeAdmin />
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/myOrders">
               <MyOrders />
             </PrivateRoute>
