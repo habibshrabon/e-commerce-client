@@ -7,7 +7,7 @@ This project was bootstrapped with [E-COMMERCE](https://e-commerce-78666.web.app
 - The project name is E-Commerce Web-site.
 - This is a best category website.
 - This is a MERN stack website.
-- User can buy stylist and cool sunglass form this website.
+- User can buy stylist and cool product form this website.
 
 ## Functionality of the website.
 
