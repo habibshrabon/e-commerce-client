@@ -21,4 +21,8 @@ This project was bootstrapped with [E-COMMERCE](https://car-heaven.web.app/).
 
 ## This project used Tools.
 
-- A full-stack single-page web application where customers can book a car purchase service.
+- I created this app with react js.
+- Used Firebase for Log in system.
+- Used mongoDB for database.
+- used Heroku for server site.
+- Also used Axios, React hook form, react icon.
